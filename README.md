@@ -31,7 +31,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/WebSec-Suite.git
+git clone https://github.com/raju4199/WebSec-Suite.git
 cd WebSec-Suite
 
 # Run installation script
@@ -72,4 +72,5 @@ chmod +x websec-suite.sh
 # Test on vulnerable practice sites
 ./websec-suite.sh http://testphp.vulnweb.com
 ./websec-suite.sh http://demo.testfire.net
+
 ./websec-suite.sh http://bwapp.bwapp.org
