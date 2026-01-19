@@ -35,11 +35,8 @@ git clone https://github.com/raju4199/WebSec-Suite.git
 cd WebSec-Suite
 
 # Run installation script
+chmod +x install.sh //make executabe first
 sudo ./install.sh
-
-# Or install manually
-sudo apt update
-sudo apt install -y nmap nikto nuclei wapiti
 
 ### Basic Usage
 # Make script executable
@@ -74,3 +71,4 @@ chmod +x websec-suite.sh
 ./websec-suite.sh http://demo.testfire.net
 
 ./websec-suite.sh http://bwapp.bwapp.org
+
