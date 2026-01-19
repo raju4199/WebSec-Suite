@@ -1,0 +1,20 @@
+# WebSec-Suite Requirements
+# These tools will be installed by install.sh
+
+## Core Tools
+nmap>=7.90        # Network reconnaissance
+nikto>=2.5.0      # Web server scanner
+nuclei>=3.0.0     # Vulnerability scanner
+wapiti>=3.1.6     # Web application scanner
+
+## Optional Tools (for enhanced scanning)
+# dirb            # Directory bruteforcing
+# gobuster        # Directory/file bruteforcing
+# sqlmap          # SQL injection testing
+# whatweb         # Web technology identification
+
+## System Requirements
+# Operating System: Kali Linux, Ubuntu, Debian, Parrot OS
+# RAM: 2GB minimum, 4GB recommended
+# Storage: 1GB free space
+# Internet: Required for template updates
